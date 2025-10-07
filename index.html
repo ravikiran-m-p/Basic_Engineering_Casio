@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Human-style Casio Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="calculator">
+
+<input type="text" id="main_display" placeholder="0" disabled>
+
+<div class="row">
+<button onclick="apply_func('sin')">sin</button>
+<button onclick="apply_func('cos')">cos</button>
+<button onclick="apply_func('tan')">tan</button>
+<button onclick="apply_func('log')">log</button>
+<button onclick="apply_func('ln')">ln</button>
+<button onclick="apply_func('sqrt')">√</button>
+<button onclick="apply_func('factorial')">n!</button>
+<button onclick="append_num('π')">π</button>
+<button onclick="append_num('e')">e</button>
+</div>
+
+<div class="row">
+<button onclick="append_num('7')">7</button>
+<button onclick="append_num('8')">8</button>
+<button onclick="append_num('9')">9</button>
+<button onclick="append_op('/')">÷</button>
+</div>
+
+<div class="row">
+<button onclick="append_num('4')">4</button>
+<button onclick="append_num('5')">5</button>
+<button onclick="append_num('6')">6</button>
+<button onclick="append_op('*')">×</button>
+</div>
+
+<div class="row">
+<button onclick="append_num('1')">1</button>
+<button onclick="append_num('2')">2</button>
+<button onclick="append_num('3')">3</button>
+<button onclick="append_op('-')">-</button>
+</div>
+
+<div class="row">
+<button onclick="append_num('0')">0</button>
+<button onclick="append_num('.')">.</button>
+<button onclick="calc_result()">=</button>
+<button onclick="append_op('+')">+</button>
+</div>
+
+<div class="row">
+<button onclick="ten_power()">10^x</button>
+<button onclick="apply_func('n_pr')">nPr</button>
+<button onclick="apply_func('n_cr')">nCr</button>
+<button onclick="clear_display()">CE</button>
+<button onclick="delete_last()">DEL</button>
+</div>
+
+<div class="row">
+<button onclick="show_stats_panel()">Stats</button>
+<button onclick="show_temp_panel()">Temp</button>
+<button onclick="show_base_panel()">Base-n</button>
+<button onclick="show_conv_panel()">Conv</button>
+</div>
+
+<div id="stats_panel" class="panel"></div>
+<div id="temp_panel" class="panel"></div>
+<div id="base_panel" class="panel"></div>
+<div id="conv_panel" class="panel"></div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
