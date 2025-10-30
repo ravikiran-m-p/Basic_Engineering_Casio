@@ -33,3 +33,11 @@ Compute results from comma-separated input values:
   - Octal (base 8)
   - Decimal (base 10)
   - Hexadecimal (base 16)
+ 
+  ### Engineering Unit Conversion
+- Degrees ↔ Radians  
+- Meters ↔ Centimeters  
+- Kilograms ↔ Grams  
+- Liters ↔ Milliliters  
+
+---
