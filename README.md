@@ -46,3 +46,13 @@ Compute results from comma-separated input values:
 **HTML5** 
 **CSS3**
 **JavaScript (ES6)** 
+
+
+---
+
+##  How to Run
+
+1. **Clone or download** the repository:
+2. 
+   git clone https://github.com/ravikiran-m-p/Basic-Engineering-Casio.git
+
