@@ -13,5 +13,14 @@ This calculator performs everything from basic arithmetic to advanced scientific
 
 ### Combinatorics
 - `nPr` → Permutation  
-- `nCr` → Combination  
+- `nCr` → Combination
+
+### Statistics Mode
+Compute results from comma-separated input values:
+- Sum  
+- Mean  
+- Median  
+- Mode  
+- Variance  
+- Standard Deviation  
 
