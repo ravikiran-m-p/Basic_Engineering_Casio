@@ -24,3 +24,12 @@ Compute results from comma-separated input values:
 - Variance  
 - Standard Deviation  
 
+### Temperature Conversion
+- Convert between **Celsius**, **Fahrenheit**, and **Kelvin**
+
+### Base-n Conversion
+- Convert decimal numbers into:
+  - Binary (base 2)
+  - Octal (base 8)
+  - Decimal (base 10)
+  - Hexadecimal (base 16)
