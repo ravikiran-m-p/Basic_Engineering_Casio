@@ -4,3 +4,9 @@ A **modern web-based scientific and engineering calculator** inspired by the cla
 This calculator performs everything from basic arithmetic to advanced scientific, statistical, and engineering conversions — all in one simple, elegant interface.
 
 ---
+## Features
+
+### Basic Operations
+- Addition, Subtraction, Multiplication, Division  
+- Decimal point support  
+- `DEL` and `CE` for correction and clearing  
