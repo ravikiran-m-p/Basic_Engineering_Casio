@@ -9,4 +9,9 @@ This calculator performs everything from basic arithmetic to advanced scientific
 ### Basic Operations
 - Addition, Subtraction, Multiplication, Division  
 - Decimal point support  
-- `DEL` and `CE` for correction and clearing  
+- `DEL` and `CE` for correction and clearing
+
+### Combinatorics
+- `nPr` → Permutation  
+- `nCr` → Combination  
+
