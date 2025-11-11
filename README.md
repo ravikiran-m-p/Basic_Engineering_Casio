@@ -57,4 +57,3 @@ Compute results from comma-separated input values:
  ```
 2. Open the folder and run the index.html file in your browser
 3. Use it just like a real scientific calculator
-
