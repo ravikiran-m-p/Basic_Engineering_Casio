@@ -4,14 +4,11 @@ let main_display = document.getElementById('main_display');
 function append_num(n)
 {
       if(n.toLowerCase()=='π')
-      {
       n = Math.PI;
-      }
+      
         
       if(n.toLowerCase()=='e')
-      {
       n = Math.E;
-      }
         
       if(main_display.value=="" || main_display.value=="0")
       {
