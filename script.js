@@ -33,9 +33,7 @@ function clear_display()
 }
 
 function delete_last()
-{
     main_display.value = main_display.value.slice(0,-1);
-}
 
 function calc_result()
 {
