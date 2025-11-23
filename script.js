@@ -135,14 +135,12 @@ function apply_func(func)
       }
       break;
       }
-      
       main_display.value = res;
       }
       catch
       {
       main_display.value = "Error";
       }
-
 }
 
 function hide_all_panels()
