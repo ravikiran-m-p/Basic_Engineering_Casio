@@ -11,9 +11,8 @@ function append_num(n)
       n = Math.E;
         
       if(main_display.value=="" || main_display.value=="0")
-      {
       main_display.value = n;
-      }
+      
         
       else
       {
