@@ -15,9 +15,7 @@ function append_num(n)
       
         
       else
-      {
       main_display.value += n;
-      }
   
 }
 
