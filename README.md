@@ -1,17 +1,17 @@
-# 📟 Indian Engineer Ultimate (V.2026)
+#  Indian Engineer Ultimate (V.2026)
 ### *Advanced Scientific Computing Interface*
 
 Developed by **M. Ravi Kiran**, the **Indian Engineer Ultimate** is a professional-grade web emulation of iconic scientific hardware. This project is engineered to provide a seamless computational experience, integrating classic tactile aesthetics with high-precision mathematical logic.
 
 ---
 
-## 🌐 Live Deployment
+##  Live Deployment
 Explore the interface here:  
 👉 **[ravikiran-m-p.github.io/Basic_Engineering_Casio/](https://ravikiran-m-p.github.io/Basic_Engineering_Casio/)**
 
 ---
 
-## 🚀 Key Computing Modules
+##  Key Computing Modules
 This system utilizes a **Dynamic Keypad Rendering** architecture to switch between specialized mathematical environments:
 
 * **COMP (General Computation):** Full support for arithmetic, Trigonometry (Degrees), and Logarithmic functions ($ln, log_{10}$).
@@ -23,7 +23,7 @@ This system utilizes a **Dynamic Keypad Rendering** architecture to switch betwe
 
 ---
 
-## 🎨 Engineered Features
+##  Engineered Features
 * **Haptic Simulation:** Leverages the `Vibration API` to provide physical feedback on touch devices, simulating real button resistance.
 * **LCD Simulation UI:** Features a custom CSS-rendered dot-matrix grid to replicate high-contrast hardware displays.
 * **Solar-Hybrid Aesthetic:** A visual homage to high-end scientific calculators, featuring a rendered solar-strip and "Dark Mode" chassis.
@@ -31,20 +31,20 @@ This system utilizes a **Dynamic Keypad Rendering** architecture to switch betwe
 
 ---
 
-## 🛠️ Technical Architecture
+##  Technical Architecture
 * **Language:** Vanilla JavaScript (ES6+), HTML5, CSS3.
 * **Methodology:** Responsive design via **CSS Grid**, haptic event handling, and dynamic DOM manipulation.
 * **Hosting:** Integrated deployment via **GitHub Pages**.
 
 ---
 
-## 📂 Project Repository
+##  Project Repository
 **Owner:** [ravikiran-m-p](https://github.com/ravikiran-m-p)  
 **Repository:** `Basic_Engineering_Casio`
 
 ---
 
-## 📝 Developer Credits
+##  Developer Credits
 **Lead Developer:** M. Ravi Kiran  
 **Release Version:** 2026.1.0  
 
