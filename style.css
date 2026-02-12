@@ -1,76 +1,215 @@
+:root 
+{
+    --chassis: #252527;
+    --lcd: #a3b1a3;
+    --saffron: #ff9933;
+    --green: #138808;
+    --btn-num: #ffffff;
+}
+
 body 
 {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-background: #111;
-font-family: Arial, sans-serif;
+    background: #050505;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    overflow: hidden;
 }
 
-.calculator 
+.casio-body 
 {
-background: #000;
-padding: 15px;
-border-radius: 12px;
-box-shadow: 0 5px 20px rgba(255,215,0,0.5);
-max-width: 450px;
-color: white;
+    background: linear-gradient(145deg, #3a3a3c, #1a1a1c);
+    width: 380px;
+    padding: 30px 20px;
+    border-radius: 40px;
+    border: 3px solid #444;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.8);
+    position: relative;
+    user-select: none;
 }
 
-#main_display 
-{
-width: 100%;
-height: 50px;
-font-size: 24px;
-text-align: right;
-padding: 10px;
-margin-bottom: 10px;
-border-radius: 5px;
-border: none;
-background: #111;
-color: #fffa65;
+.casio-header
+{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    color: white; 
+    margin-bottom: 15px; 
 }
 
-.row 
+
+.left-brand
+{ 
+    font-size: 24px; 
+    font-weight: 900; 
+    letter-spacing: 1px; 
+}
+
+.edition
+{ 
+    font-size: 11px; 
+    color: var(--saffron); 
+    font-weight: bold; 
+}
+
+
+
+
+.solar-strip 
 {
-display: flex;
-justify-content: space-between;
-margin-bottom: 5px;
+    background: #111;
+    width: 110px;
+    height: 28px;
+    margin: 0 0 15px auto;
+    display: flex;
+    border: 2px solid #000;
+}
+
+.solar-strip .cell
+{ 
+    flex: 1; 
+    border-right: 1px solid #333; 
+}
+
+.lcd-screen 
+{
+    background: var(--lcd);
+    background-image: radial-gradient(#94a394 1px, transparent 0);
+    background-size: 3px 3px;
+    border: 6px solid #111;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.lcd-top
+{ 
+    display: flex; 
+    justify-content: space-between; 
+    font-size: 10px; 
+    font-weight: bold; 
+    color: #333; 
+}
+
+
+
+
+#display 
+{
+    width: 100%; 
+    background: transparent; 
+    border: none; 
+    text-align: right;
+    font-family: 'Courier New', monospace; 
+    font-size: 30px; 
+    font-weight: bold;
+    color: #111; 
+    outline: none; 
+    margin-top: 5px;
+}
+
+
+
+#error-msg 
+{ 
+    height: 14px; 
+    color: #8b0000; 
+    font-size: 10px; 
+    font-weight: bold; 
+}
+
+.keypad 
+{ 
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 12px; 
+    min-height: 320px; 
 }
 
 button 
 {
-flex: 1;
-margin: 2px;
-padding: 12px;
-font-size: 16px;
-border-radius: 5px;
-border: none;
-background: #000;
-color: #ffd700;
-cursor: pointer;
-transition: 0.2s;
+    padding: 16px 0; 
+    border-radius: 12px; 
+    border: none; 
+    font-weight: bold;
+    cursor: pointer; 
+    box-shadow: 0 5px 0 #000; 
+    transition: 0.1s;
 }
 
-button:hover 
-{
-background: #444;
-color: #fff;
+button:active
+{ 
+    transform: translateY(4px); 
+    box-shadow: none; 
 }
 
-.panel 
-{
-background: #222;
-border-radius: 8px;
-margin-top: 10px;
-padding: 10px;
+.btn-num 
+{ 
+    background: var(--btn-num); 
+    color: #000; 
+    font-size: 18px; 
 }
 
-.panel input, .panel select 
-{
-width: 60px;
-margin: 2px;
-text-align: center;
-font-size: 16px;
+.btn-op 
+{ 
+    background: #444; 
+    color: #fff; 
 }
+
+.btn-sci 
+{ 
+    background: #333; 
+    color: #fff; 
+    font-size: 12px; 
+}
+
+.btn-mode
+{ 
+    background: var(--saffron); 
+    color: #000; 
+    font-size: 20px; 
+}
+
+.btn-eq
+{ 
+    background: var(--green); 
+    color: #fff; 
+}
+
+.btn-back 
+{ 
+    background: #b91c1c; 
+    color: #fff; 
+}
+
+
+.developer-tag 
+{ 
+    text-align: center; 
+    color: #fbbf24; 
+    font-size: 12px; 
+    font-weight: bold; 
+    margin-top: 20px; 
+    letter-spacing: 2px; 
+}
+
+
+
+.nested-input 
+{ 
+    background: #222; 
+    color: var(--saffron); 
+    border: 1px solid #444; 
+    width: 100%; 
+    text-align: center; 
+    padding: 10px; 
+    border-radius: 5px; 
+    grid-column: span 4; 
+    margin-bottom: 5px; 
+}
+
